@@ -1,0 +1,41 @@
+console.log('script');
+
+$(document).ready(function(){
+  $('#drinks').click(function(){
+    $('.all').hide();
+    $('.drink').show();
+  });
+
+  $('#coffee').click(function(){
+    $('.all').hide();
+    $('.coffee').show();
+  });
+  $('#refresh').click(function(){
+    $('.all').show();
+
+  });
+  $('#cocktail').click(function(){
+    $('.all').hide();
+    $('.cocktail').show();
+  });
+  $('#beer').click(function(){
+    $('.all').hide();
+    $('.beer').show();
+  });
+  $('#wine').click(function(){
+    $('.all').hide();
+    $('.wine').show();
+  });
+  $('#food').click(function(){
+    $('.all').hide();
+    $('.food').show();
+  });
+  $('#veg').click(function(){
+    $('.all').hide();
+    $('.veg').show();
+  });
+  $('#non-veg').click(function(){
+    $('.all').hide();
+    $('.nonVeg').show();
+  });
+})
